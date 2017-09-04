@@ -9,7 +9,7 @@ return array(
     //设置服务器地址
 	'DB_HOST' => '127.0.0.1',
     //设置服务器名称
-	'DB_NAME' => 'hzaulab',
+	'DB_NAME' => 'zkydatabase',
     //设置服务器角色名称
 	'DB_USER' => 'doubibobo',
     //设置服务器角色密码

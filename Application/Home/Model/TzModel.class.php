@@ -20,4 +20,11 @@
 			$mode = M("Tz");
 			return $mode -> where("id = $value") -> find();
 		}
+		// 查询所有通知
+		public function selectAll()
+		{
+			# code...
+			$mode = M("Tz");
+			return $mode -> select();
+		}
 	}

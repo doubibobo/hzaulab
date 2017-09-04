@@ -1,0 +1,46 @@
+[ 2017-09-04T19:51:04+08:00 ] ::1 /hzaulab/index.php/Home/User/login
+ERR: 1146:Table 'hzaulab.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2017-09-04T20:00:47+08:00 ] ::1 /hzaulab/index.php/Home/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-09-04T20:00:49+08:00 ] ::1 /hzaulab/index.php/Home/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-09-04T20:01:18+08:00 ] ::1 /hzaulab/index.php/Home/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-09-04T20:01:19+08:00 ] ::1 /hzaulab/index.php/Home/Index/main.html
+ERR: 非法操作:main
+
+[ 2017-09-04T20:14:17+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:14:23+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:14:29+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:14:37+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:15:53+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:16:28+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:16:36+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:17:02+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:19:38+08:00 ] ::1 /hzaulab/index.php/Home/About/about_show2
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-09-04T20:22:33+08:00 ] ::1 /hzaulab/index.php/Home/Index/index
+ERR: Think\Model:selectAll方法不存在！
+

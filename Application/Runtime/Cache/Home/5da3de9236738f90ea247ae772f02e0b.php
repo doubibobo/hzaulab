@@ -6,10 +6,9 @@
  	<title>华中农业大学作物学实验教学中心</title>
  	<link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,300,700' />
   <link rel="shortcut icon" href="/hzaulab/logo.ico" type="image/x-icon" />
-
-  <link type="text/css" rel="stylesheet" href="/hzaulab/Public/face/css/flexslider.css" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/home_public.css" />
-  <link rel="stylesheet" href="/hzaulab/Public/face/css/index.css"  />
+  <link rel="stylesheet" href="/hzaulab/Public/face/css/show_public.css" />
+    <link rel="stylesheet" href="/hzaulab/Public/face/css/lab.css" />
   <script type="text/javascript" src="/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
 
 </head>
@@ -168,99 +167,33 @@
   </div>
   
   <!--**************************************************************main-one**************************************************************-->
-  <div id="main_one">
+  <div id="main">
     <div class="container">
-      <!--*******************图片轮播*******************-->
-      <div class="flexslider">
-        <ul class="slides">
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg4.jpg" alt="" /></a>
-            <div style="position: absolute; top:75px; left:45px; width:70%; height:150px;">
-              <div class="slide_content_left"><h2>实践实习类</h2></div>
-              
-            </div>
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg5.jpg" alt="" /></a>
-            <div class="slide_content_right"><h2>专业基础类</h2></div>
-            
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg2.jpg" alt="" /></a>
-            <div class="slide_content_left"><h2>作物生产类</h2></div>
-          
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg6.jpg" alt="" /></a>
-            <div class="slide_content_right"><h2>植物保护类</h2></div>
-      
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg6.jpg" alt="" /></a>
-            <div class="slide_content_left"><h2>创新实验课程</h2></div>
-         
-          </li>
-        </ul>
+      <div id="blank"></div>
+      <div id="main_nav">
+        <section>
+          <h3>实验室</h3>
+          <ul class="ultop">
+            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show1">公共实验室</a></li>
+            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show2">教学实验室</a></li>
+            <li><a href="/hzaulab/index.php/Home/Laboratory/laboratory_show3">实验辅助室</a></li>
+          </ul>
+        </section>
       </div>
-      <!--*******************   登录   *******************-->
-      <div class="home_log_box" >
-        <div class="log_tit">
-          <span>用户登录</span>
-        </div>
-        <div class="log_body">
-           <form action="/hzaulab/index.php/Home/User/login" method="post">
-            <p class="home_logsug"></p> 
-            <input type="text" placeholder="用户名" id="home_logName" name="username"/><br> 
-            <input type="password" placeholder="密码" id="home_logPwd" name="password"/><br>
-            欢迎<?php echo (session('username')); ?>！/ <a href="/hzaulab/index.php/Home/User/loginout">注销</a>
-            <!-- <a href="javascript:login()" style="opacity: 0.6;" class="home_logbtn">登陆</a> -->
-            <button type="submit" class="home_logbtn">登陆</button>
-          </form>
-        </div>
+      <div id="main_right">
+        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">实验室</a> </nav>
+        <header class="main_title"><h2>实验室</h2></header>
+        <section class="article">
+          <p class="contantdis">
+          <?php echo ($data["content"]); ?>
+<!--             作物学实验教学中心成立于2002年，2007年批准为湖北省实验教学示范中心，2008年批准为国家级实验教学示范中心建设单位。拥有作物学国家一级重点学科和植物保护学湖北省重点学科，作物学和植物保护学两个一级学科博士后科研流动站；依托平台有作物遗传改良国家重点实验室、国家农作物分子技术育种中心、国家植物基因研究中心、国家油菜工程技术研究中心和国家油菜武汉改良分中心等5个国家级重点实验室与工程中心，7个省部级重点实验室和研发中心，8个校级研发中心。 中心有实验及基地用房7560平米，温室、网室群3880平米，校内本科实习用地40多亩，形成了植物生理生化、通用显微观察、多功能化学分析、生态与信息4个大类教学功能实验室，1个大学生创新实验室，1个中心共享平台，1个校内实践创新基地和3个校外大型综合实习基地的实践教学平台，仪器设备总数7860台/件，总值7852万元，可同时开出15个班次不同类型的课程实验、实习。面向全校17个专业的本科生，开设52门实验课程123456。 -->
+          </p>
+        </section>
       </div>
     </div>
   </div>
 
-  <!--**************************************************************main-two**************************************************************-->
-  <div id="main_two">
-    <div class="container">   
-      <div class="list_box">
-        <div class="title_box">
-          <h2 class="title">通知公告</h2><i>NOTICE</i><a href="/hzaulab/index.php/Home/About/about_show2"><b>MORE</b></a>
-        </div>
-        <ul>
-          <?php if(is_array($theTz)): $i = 0; $__LIST__ = $theTz;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$items): $mod = ($i % 2 );++$i; $items['infotime'] = substr($items['infotime'] ,5); ?>
-            <li><a href="/hzaulab/index.php/Home/About/about_show2_article/id/<?php echo ($items["id"]); ?>"><?php echo ($items["infoname"]); ?></a><span><?php echo ($items["infotime"]); ?></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
-        </ul>
-      </div> 
-     
-      <div class="list_box">
-        <div class="title_box">
-          <h2 class="title">服务指南</h2><i>SERVICE</i><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2"><b>MORE</b></a>
-        </div>
-        <ul>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-        </ul>
-      </div>  
 
-       <div class="list_box">
-        <div class="title_box">
-          <h2 class="title">下载专区</h2><i>DOWNLOAD</i><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3"><b>MORE</b></a>
-        </div>
-        <ul>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-        </ul>
-      </div>   
-    </div>
-  </div>
    <!--************************************************************** footer **************************************************************-->
   <div id="footer">
      <div class="container">

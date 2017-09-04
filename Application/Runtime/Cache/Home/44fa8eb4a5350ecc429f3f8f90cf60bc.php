@@ -6,10 +6,9 @@
  	<title>华中农业大学作物学实验教学中心</title>
  	<link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu:300italic,300,700' />
   <link rel="shortcut icon" href="/hzaulab/logo.ico" type="image/x-icon" />
-
-  <link type="text/css" rel="stylesheet" href="/hzaulab/Public/face/css/flexslider.css" />
   <link rel="stylesheet" href="/hzaulab/Public/face/css/home_public.css" />
-  <link rel="stylesheet" href="/hzaulab/Public/face/css/index.css"  />
+  <link rel="stylesheet" href="/hzaulab/Public/face/css/show_public.css" />
+  <link rel="stylesheet" href="/hzaulab/Public/face/css/equipment_pit.css" />
   <script type="text/javascript" src="/hzaulab/Public/public/js/jquery-1.8.3.min.js"></script>
 
 </head>
@@ -168,99 +167,100 @@
   </div>
   
   <!--**************************************************************main-one**************************************************************-->
-  <div id="main_one">
+  <div id="main">
     <div class="container">
-      <!--*******************图片轮播*******************-->
-      <div class="flexslider">
-        <ul class="slides">
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg4.jpg" alt="" /></a>
-            <div style="position: absolute; top:75px; left:45px; width:70%; height:150px;">
-              <div class="slide_content_left"><h2>实践实习类</h2></div>
-              
+      <div id="blank"></div>
+      <div id="main_nav">
+        <section>
+          <h3>仪器设备</h3>
+          <ul class="ultop">
+            <li><a href="/hzaulab/index.php/Home/Equipment/equipment_show1" style="border-left: 3px solid orange;">仪器设备</a></li>
+          </ul>
+        </section>
+      </div>
+      <div id="main_right">
+        <nav class="top_nav"><a href="/hzaulab/index.php/home/Index/index.html">首页</a> · <a href="#">仪器设备</a> · <a href="#">仪器设备</a> </nav>
+        <header class="main_title"><h2>仪器设备</h2></header>
+        <section class="article">
+          <div>
+            <form id="eqt_search" action="" method="post">
+              <br>
+              <input class="search" name="search" type="text"><input class="search_button" value="" type="submit">
+              <br><br>
+              <div class="radio_box">
+                <input name="condition" value="1" checked="true" type="radio"> 所有　
+                <input name="condition" value="2" type="radio"> 设备名称　
+                <input name="condition" value="3" type="radio"> 设备编号　
+              </div>
+            </form>
+          </div><br>
+          <div class="pitbox">
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >气相色谱质谱联用仪</a></h4>
+            <div class="pitexplan">
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/1.jpg" alt=""></a>
+              <div class="explan">
+                <p>编  号: 1</p>
+                <p>地  点：东附楼111</p>
+                <p>价  值:15500</p>
+                <p>生产商:China</p>
+                <p>型  号：A1181asasassas</p>
+                <p>状  态：在用</p>
+              </div>
             </div>
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg5.jpg" alt="" /></a>
-            <div class="slide_content_right"><h2>专业基础类</h2></div>
-            
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg2.jpg" alt="" /></a>
-            <div class="slide_content_left"><h2>作物生产类</h2></div>
-          
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg6.jpg" alt="" /></a>
-            <div class="slide_content_right"><h2>植物保护类</h2></div>
-      
-          </li>
-          <li>
-            <a href="/hzaulab/index.php/Home/course/course.html?"><img src="/hzaulab/Public/face/images/slider/lrgimg6.jpg" alt="" /></a>
-            <div class="slide_content_left"><h2>创新实验课程</h2></div>
-         
-          </li>
-        </ul>
-      </div>
-      <!--*******************   登录   *******************-->
-      <div class="home_log_box" >
-        <div class="log_tit">
-          <span>用户登录</span>
-        </div>
-        <div class="log_body">
-           <form action="/hzaulab/index.php/Home/User/login" method="post">
-            <p class="home_logsug"></p> 
-            <input type="text" placeholder="用户名" id="home_logName" name="username"/><br> 
-            <input type="password" placeholder="密码" id="home_logPwd" name="password"/><br>
-            欢迎<?php echo (session('username')); ?>！/ <a href="/hzaulab/index.php/Home/User/loginout">注销</a>
-            <!-- <a href="javascript:login()" style="opacity: 0.6;" class="home_logbtn">登陆</a> -->
-            <button type="submit" class="home_logbtn">登陆</button>
-          </form>
-        </div>
+            <div class="pitbottom">bottom</div>
+          </div>
+          <div class="pitbox">
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >液相色谱质谱联用仪</a></h4>
+            <div class="pitexplan">
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/2.png" alt=""></a>
+              <div class="explan">
+                <p>编  号: 2</p>
+                <p>地  点：东附楼111</p>
+                <p>价  值:15500</p>
+                <p>生产商:China</p>
+                <p>型  号：A1181asasassas</p>
+                <p>状  态：在用</p>
+              </div>
+            </div>
+            <div class="pitbottom">bottom</div>
+          </div>
+          <div class="pitbox">
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >凝胶电泳</a></h4>
+            <div class="pitexplan">
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/3.jpg" alt=""></a>
+              <div class="explan">
+                <p>编  号: 3</p>
+                <p>地  点：东附楼111</p>
+                <p>价  值:15500</p>
+                <p>生产商:China</p>
+                <p>型  号：A1181asasassas</p>
+                <p>状  态：在用</p>
+              </div>
+            </div>
+            <div class="pitbottom">bottom</div>
+          </div>
+          <div class="pitbox">
+            <h4><a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" >超低温冰箱</a></h4>
+            <div class="pitexplan">
+              <a href="/hzaulab/index.php/Home/Equipment/equipment_show1_eqt" ><img src="/hzaulab/Public/face/images/eqt/4.jpg" alt=""></a>
+              <div class="explan">
+                <p>编  号: 4</p>
+                <p>地  点：东附楼111</p>
+                <p>价  值:15500</p>
+                <p>生产商:China</p>
+                <p>型  号：A1181asasassas</p>
+                <p>状  态：在用</p>
+              </div>
+            </div>
+            <div class="pitbottom">bottom</div>
+          </div>
+          <div class="page"><a href="">上一页</a>/<a href="">下一页</a></div>
+        </section>
       </div>
     </div>
   </div>
 
-  <!--**************************************************************main-two**************************************************************-->
-  <div id="main_two">
-    <div class="container">   
-      <div class="list_box">
-        <div class="title_box">
-          <h2 class="title">通知公告</h2><i>NOTICE</i><a href="/hzaulab/index.php/Home/About/about_show2"><b>MORE</b></a>
-        </div>
-        <ul>
-          <?php if(is_array($theTz)): $i = 0; $__LIST__ = $theTz;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$items): $mod = ($i % 2 );++$i; $items['infotime'] = substr($items['infotime'] ,5); ?>
-            <li><a href="/hzaulab/index.php/Home/About/about_show2_article/id/<?php echo ($items["id"]); ?>"><?php echo ($items["infoname"]); ?></a><span><?php echo ($items["infotime"]); ?></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
-        </ul>
-      </div> 
-     
-      <div class="list_box">
-        <div class="title_box">
-          <h2 class="title">服务指南</h2><i>SERVICE</i><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2"><b>MORE</b></a>
-        </div>
-        <ul>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show2_article">按时间显示最新内容标题</a><span>06-13</span></li>
-        </ul>
-      </div>  
 
-       <div class="list_box">
-        <div class="title_box">
-          <h2 class="title">下载专区</h2><i>DOWNLOAD</i><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3"><b>MORE</b></a>
-        </div>
-        <ul>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-          <li><a href="/hzaulab/index.php/Home/Fictitious/fictitious_show3">按时间显示最新内容标题</a><span>06-13</span></li>
-        </ul>
-      </div>   
-    </div>
-  </div>
    <!--************************************************************** footer **************************************************************-->
   <div id="footer">
      <div class="container">
